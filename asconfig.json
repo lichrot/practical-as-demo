@@ -8,8 +8,8 @@
       "debug": true
     },
     "release": {
-      "outFile": "src/wasm/release.wasm",
-      "textFile": "src/wasm/release.wat",
+      "outFile": "src/wasm/index.wasm",
+      "textFile": "src/wasm/index.wat",
       "exportRuntime": true,
       "sourceMap": true,
       "optimizeLevel": 3,
