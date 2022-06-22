@@ -1,14 +1,15 @@
-export function fib(n: i64): i64 {
-  let a = 0;
-  let b = 1;
+export function fib(num: u32): u64 {
+  if (num === 0) return 0;
+  if (num === 1) return 1;
 
-  if (n === 0) return a;
-  
-  while (--n) {
-    let sum = a + b;
-    a = b;
-    b = sum;
+  let prev: u64 = 0;
+  let cur: u64 = 1;
+
+  for (let idx: u32 = 2; idx <= num; idx++) {
+    let sum: u64 = prev + cur;
+    prev = cur;
+    cur = sum;
   }
 
-  return b;
+  return cur;
 }
