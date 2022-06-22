@@ -1,6 +1,9 @@
 <div align="center">
   <img src="https://user-images.githubusercontent.com/34924430/175023108-15963878-2ffc-4bb8-89b5-13ddf248679f.png" />
 </div>
+<div align="center">
+  <img src="https://api.netlify.com/api/v1/badges/acf3b752-fd24-4812-8908-ab5dfa86ed1e/deploy-status" />
+</div>
 
 # [practical-as-demo] The Fibonacci Edition
 

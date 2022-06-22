@@ -65,7 +65,7 @@ const App = () => {
           {'< AssemblyScript >'}
         </a>
         <a
-          href=''
+          href='https://github.com/yohgen/practical-as-demo'
           target='_blank'
           rel='noopener noreferrer'
           className='text-center font-mono text-sm text-slate-400 hover:text-white'
