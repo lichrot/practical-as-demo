@@ -28,7 +28,7 @@ const App = () => {
         {isNonNum ? null : <span>Result:</span>}
         <span className={isNonNum ? 'break-words' : 'break-all'}>{result}</span>
       </div>
-      <div className='flex flex-row flex-wrap justify-between items-center gap-3'>
+      <div className='flex flex-row flex-wrap justify-center items-center gap-3'>
         <Link href='https://www.assemblyscript.org'>{'< AssemblyScript >'}</Link>
         <Link href='https://github.com/yohgen/practical-as-demo'>{'< GitHub >'}</Link>
       </div>
